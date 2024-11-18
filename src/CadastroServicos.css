@@ -1,0 +1,89 @@
+/* CadastroServicos.css */
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h2 {
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.back-button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main-title {
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+input {
+  padding: 16px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.add-button {
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.servico-list {
+  margin-top: 30px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.servico-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.servico-item h3 {
+  margin-top: 0;
+}
+
+.servico-item p {
+  margin: 5px 0;
+}
